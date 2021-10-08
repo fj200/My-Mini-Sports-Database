@@ -17,7 +17,7 @@ Functional requirements:
 
 Almost everyone has a favorite sport that they eagerly follow and constantly engage in. However, there are other fascinating sports in the world that have never seen the light of day. At times we hear the name of these sports but do not know what they are and what they entail. In this project, we gathered a small database containing a short definition of sports. The name of the sport in question can be searched and if available a short definition containing, the number of players, the object of each game, and a short description of how it is done. There is also a list provided of all available definitions in the database for further searching.
 
-• User can access the database in HTML format.
+• User can access the database on any device.
 
 • User can search their chosen sport name in the search box provided.
 
