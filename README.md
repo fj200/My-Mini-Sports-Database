@@ -17,13 +17,13 @@ Functional requirements:
 
 Almost everyone has a favorite sport that they eagerly follow and constantly engage in. However, there are other fascinating sports in the world that have never seen the light of day. At times we hear the name of these sports but do not know what they are and what they entail. In this project, we gathered a small database containing a short definition of sports. The name of the sport in question can be searched and if available a short definition containing, the number of players, the object of each game, and a short description of how it is done. There is also a list provided of all available definitions in the database for further searching.
 
-• User can access the database on any device.
+• Users can access the database on any device.
 
-• User can search their chosen sport name in the search box provided.
+• Users can search for their chosen sport name in the search box provided which pops up at the center of the webpage.
 
-• User can search multiple definition in their experience. 
+• Multiple definition are available to the user for a greater experience. 
 
-• User can view the list of available definitions.
+• There is a list of available definitions on the right side of the webpage where users can view available defintions
 
 • User can access the definitions directly from the available list.
 
@@ -31,8 +31,8 @@ Almost everyone has a favorite sport that they eagerly follow and constantly eng
 
 • Each sport contains the basic information on each sport.
 
-• For each sport there are images provided.
+• For each sport there are images provided showing what sport has been searched for at the center of the page.
 
-• For each sport there is a link directed to a video.
+• A video is also available for the user once a click which appears on the picture of the sport.
 
-• For further information there is page linked to the definition.
+• At the bottom of the page there is a link available which provides further information.
