@@ -1,0 +1,194 @@
+html{
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    border: solid;
+    border-radius: 10px;
+    height: 5%;
+    width: 10%;
+    border-width: 2px;
+}
+header{
+    text-align: left;
+    padding: 30px;
+    background-color: #324f7b;
+    text-transform: uppercase;
+    color: #f8f8f8;
+}
+.back{
+    position: relative;
+    overflow: hidden;
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+header span{
+    overflow: hidden;
+    
+ }
+body {
+    overflow: hidden;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border-style:solid;
+    border-radius: 10px;
+    border-width: thin;
+}
+
+.navBar {
+    
+    background-color: #86a6de;
+    height: 42px;
+    
+    text-align: center;
+}
+.navBar li{
+    display: inline-block;
+}
+.navBar a{
+   
+    color: #f8f8f8;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+}
+.navBar a:hover{
+    background-color: #f8f8f8;
+    color: #324f7b;
+}
+.navBar a:active{
+    background-color: #5067aa;
+    color: #324f7b;
+}
+
+.sport_description{
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    background-color: rgba(248, 248, 248, 0.75);
+    border-left: solid #5067aa;
+}
+.button{
+    margin-top: 20px;
+}
+
+#moreInfo{
+    margin-left: 36.5vw;
+}
+
+.content object{
+    float: right;
+    size-adjust: 100%;
+    border-width: 2px;
+    border-style:solid;
+    margin-right: 10vw;
+    margin-top: 50px;
+    margin-bottom: 15vh;
+    border-color: #86A6DE;
+  
+}
+
+.content img{
+    border-style: solid;
+    border-color: #86a6de;
+    float: left;
+    margin-left: 10vw;
+    margin-top: 7vh;
+    margin-bottom: 15vw;
+    height: 200px;
+}
+.content{
+    margin-bottom: 20vw;
+}
+.list{
+    text-align: center;
+     width: 100px;
+     height: 300px;
+     float: right;
+     border: #324f7b;
+     border-style: solid;
+     border-radius: 10px;
+     border-width: 2px;
+     margin-top: 0vw;
+    margin-right: -30vw;
+    margin-bottom:2vw;
+     background-color: rgba(248, 248, 248, 0.75);
+     list-style-type: none;
+     
+   }
+
+.history {
+    width: 240px;
+    height: 250px;
+    border-width: 2px;
+    border-style:solid;
+    padding: 20px;
+    margin-left: 53vw;
+    margin-bottom: 2vw;
+    margin-top: 10.5vh;
+    border-color:#324f7b;
+    border-radius: 10px;
+    background-color: rgba(248, 248, 248, 0.75);
+    text-align:left;
+
+}
+#his{
+    display: inline-block;
+    margin-right: 30vw;
+}
+
+#searchBox{
+    margin-top: -50vh;
+}
+
+
+
+
+.list:link{
+    color: #f8f8f8;
+}
+  
+.list:visited{
+    color: #f8f8f8;
+}
+
+
+.searchBtn {
+    width: 200px;
+    height: 60px;
+    display: inline-block;
+    padding-top: 2vh;
+  }
+#searchBox{
+    height: 40px;
+    width: 200px;
+   
+    border-radius: 10px;
+    margin-left: 20vw;
+    
+  } 
+form{
+    border: solid;
+    margin-top: 35vh;
+    border-color:#324f7b;
+    border-radius: 10px;
+    background-color: rgba(248, 248, 248, 0.75);
+}
+
+
+footer{
+    margin-bottom: 2vh;
+  text-align: center;
+}
+#his2{
+    display: block
+}

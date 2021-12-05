@@ -1,0 +1,84 @@
+html{
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    text-align : right;
+    width : 120px;
+    height: 100px;
+}
+#logo {
+    overflow: auto;
+    text-align: left;
+}
+body{
+    overflow: hidden;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border-style:solid;
+    border-radius: 10px;
+    border-width: thin;
+}
+header{
+    text-align: left;
+    padding: 30px;
+    background-color: #324f7b;
+    text-transform: uppercase;
+    color: #f8f8f8;
+}
+#questions{
+    margin-left: 5vw;
+}
+.navBar {
+    
+    background-color: #86a6de;
+    height: 42px;
+    
+    text-align: center;
+}
+.navBar li{
+    display: inline-block;
+}
+.navBar a{
+   
+    color: #f8f8f8;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+}
+.navBar a:hover{
+    background-color: #f8f8f8;
+    color: #324f7b;
+}
+.navBar a:active{
+    background-color: #5067aa;
+    color: #324f7b;
+}
+#acceptBtn{
+    margin-left: 5vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+#first {
+    text-decoration: underline;
+}
+footer{
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    margin-left: 2vw;
+}
+#sport{
+    border: solid #5067aa;
+    height: 250px;
+    width: 150px;
+    float: right;
+    margin-right: 10vw;
+    margin-top: 5vh;
+    border-radius: 10%;
+}

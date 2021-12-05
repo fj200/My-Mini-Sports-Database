@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="En">
+<head>
+  <meta charset="UTF-8">
+  <title> EECS1012: Lab 3 - My Kit </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="1stpg.css">
+  <script src="1stpg.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+<header>
+    <img class="logo" src="logo.png"></img>
+    <span>My Mini Sports Database</span>
+</header>
+
+
+  <div class="navBar">
+    <li><a class="active"  onClick="parent.location='mainPage.html'"href="#Home">Home</a></li>
+</div>
+
+
+<div id ="sport"></div>
+
+
+  <div id="questions">
+<p>Question 1</p>
+<p id="first">Is the sport a contact sport</p>
+<input onclick="checkUncheck(0)" id="1" type="checkbox" /> Yes it is a contact sport
+<input onclick="checkUncheck(1)" id="2" type="checkbox" /> No it is not a contact sport
+<p>Question 2</p>
+<p id="first">Is the sport a team sport or non team sport </p>
+<input onclick="checkUncheck(2)" id="3" type="checkbox" /> Yes the sport is a team sport
+<input onclick="checkUncheck(3)" id="4" type="checkbox" /> No it is not played in teams
+<p>Question 3</p>
+<p  id="first">Is the sport an indoor sport outdoor or both</p>
+<input onclick="checkUncheck(4)" id="5" type="checkbox" /> Yes it is an indoor sport
+<input onclick="checkUncheck(5)" id="6" type="checkbox" /> No it is an outdoor sport
+<input onclick="checkUncheck(6)" id="7" type="checkbox" /> it can be played both indoor or outdoor
+<p>Question 4</p>
+<p  id="first">Do you require any equipment to play the sport</p>
+<input onclick="checkUncheck(7)" id="8" type="checkbox" /> Yes it requires a few equipment
+<input onclick="checkUncheck(8)" id="9" type="checkbox" /> No it requires no equipment atall
+<input onclick="checkUncheck(9)" id="10" type="checkbox" /> it is played with alot of equipment
+<p>Question 5</p>
+<p  id="first">what is the highest level the sport is played</p>
+<input onclick="checkUncheck(10)" id="11" type="checkbox" /> just at home
+<input onclick="checkUncheck(11)" id="12" type="checkbox" /> nationally
+<input onclick="checkUncheck(12)" id="13" type="checkbox" /> international
+</div>
+
+
+
+  <button  onclick = "proj()" id="acceptBtn">Sport</button>
+ <hr>
+<footer> (c) Author of this web page: 3MK </footer>
+</body>
+</html>

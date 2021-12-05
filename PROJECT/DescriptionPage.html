@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+  <!--Author: Helena Kamali
+  For: EECS 1012, Lassonde School of Engineering, York University -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Description Page</title>
+  
+  <link rel="stylesheet" type="text/css" href="DescriptionPage.css" title="style" /> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="DescriptionPage.js"></script>
+
+  
+</head>
+
+<body>
+
+<header>
+    
+  <img class="logo" src="logo.png"></img>
+  <span>My Mini Sports Database</span>     
+</header> 
+<div class="back">
+<div class="navBar">
+  <li><a class="active"  onClick="parent.location='mainPage.html'"href="#Home">Home</a></li>
+  <li> <a href="#list">List</a></li>
+  
+</div>
+
+   
+ <!--the box wich the sport description will appear in it-->
+ 
+  <div class="sport_description">
+    <h3>Sport's Description</h3>
+    
+    <div id="description"></div>
+  </div>
+  <!--the two buttons which specify to get more info and add the sport to the favorite list-->
+  <div class="button">
+  <input id="moreInfo" type=button onClick="location.href='https://www.google.com/webhp?hl=en&ictx=2&sa=X&ved=0ahUKEwjh4dOH3cr0AhVnS_EDHVAQAzcQPQgI'" value='click here for more info'> 
+    <button id="addFavBtn" onClick="addToFavorite()">Add the sport to favorite</button>
+    <button id="remFavBtn" onClick="removeFromFavorite()">Remove the sport from favorite</button>
+  </div>
+ <div class="content">
+  <img id="sportImage">
+<object id="sportVideo" data="http://www.youtube.com/embed/W7qWa52k-nE"></object>
+</div>
+
+
+<div class="list" id="list">
+  <!--lists -->
+    <h3>Available Sports:</h3>
+    <li><a id="soccer" href="DescriptionPage.html?sport=soccer"> Soccer</a></li>
+    <li><a id="cricket" href="DescriptionPage.html?sport=cricket"> Cricket</a></li>
+    <li><a id="basketball" href="DescriptionPage.html?sport=basketball">Basketball</a></li>
+    <li><a id="fieldHockey" href="DescriptionPage.html?sport=field-hockey">Field Hockey</a></li>
+    <li><a id="tennis" href="DescriptionPage.html?sport=tennis">Tennis</a></li>
+    <li><a id="vollyball" href="DescriptionPage.html?sport=volleyball">Volleyball</a></li>
+    <li><a id="tableTennis" href="DescriptionPage.html?sport=table-tennis">Table Tennis</a></li>
+    <li><a id="baseball" href="DescriptionPage.html?sport=baseball">Basetball</a></li>
+    <li><a id="rugby" href="DescriptionPage.html?sport=rugby">Rugby</a></li>
+    <li><a id="golf" href="DescriptionPage.html?sport=golf">Golf</a></li>
+</div>
+ <!--the list od searched sports will appear-->
+ 
+  <div class="history" id="history"></div>
+
+ 
+<div id="searchBox">
+<form action="DescriptionPage.html" method="GET">
+  <input type="text" placeholder=" Search..." name="sport">
+  <input type="submit" value="Submit"></input>    
+</div>
+
+</div>
+</body>
+</html>

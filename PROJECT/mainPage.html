@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="mainPage.css" title="style" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="mainPage.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Main Page</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="logo.png"></img>
+        <span>My Mini Sports Database</span>
+    </header>
+    <div class="back">
+    <div class="navBar">
+        <li><a class="active">Home</a></li>
+        <li><a href="#list">List</a></li>
+        <li><a href="#aboutUs">Additional Info</a></li>
+    </div>
+   
+    <!--description -->
+    <p id="description">Almost everyone has a favorite sport that they eagerly follow and constantly engage in. However, there are other fascinating sports in the world that have never seen the light of day. At times we hear the name of these sports but do not know what they are and what they entail. In this webpage, we gathered a small database containing a short definition of sports. The name of the sport in question can be searched and if available a short definition containing, the number of players, the object of each game, and a short description of how it is done. There is also a list provided of all available definitions in the database for further searching.</p>
+    
+    
+    <!--search box -->
+    <form action="DescriptionPage.html" method="GET">
+        <input type="text" placeholder=" Search..." id="searchBox" name="sport">
+        <input type="submit" value="Submit"></input>
+        <button class="active"  onClick="parent.location='1stpg.html'"type="button">Advanced Search</button>
+    </form>
+ <hr/>
+
+ 
+    <!--lists -->
+ <div class="list" id="list">
+     <h3>Available Sports:</h3>
+     <li><a id="soccer" href="DescriptionPage.html?sport=soccer"> Soccer</a></li>
+     <li><a id="cricket" href="DescriptionPage.html?sport=cricket"> Cricket</a></li>
+     <li><a id="basketball" href="DescriptionPage.html?sport=basketball">Basketball</a></li>
+     <li><a id="fieldHockey" href="DescriptionPage.html?sport=field-hockey">Field Hockey</a></li>
+     <li><a id="tennis" href="DescriptionPage.html?sport=tennis">Tennis</a></li>
+     <li><a id="vollyball" href="DescriptionPage.html?sport=volleyball">Volleyball</a></li>
+     <li><a id="tableTennis" href="DescriptionPage.html?sport=table-tennis">Table Tennis</a></li>
+     <li><a id="baseball" href="DescriptionPage.html?sport=baseball">Basetball</a></li>
+     <li><a id="rugby" href="DescriptionPage.html?sport=rugby">Rugby</a></li>
+     <li><a id="golf" href="DescriptionPage.html?sport=golf">Golf</a></li>
+ </div> 
+
+ <h3 id="favS">Favorite Sports:</h3>
+ <div class="favSports" id="favorites"></div>
+
+ <h3 id="his">History:</h3>
+ <div class="history" id="history"></div>
+ <hr/>
+
+    
+ <!--additional info -->
+    <p id="aboutUs"><span>About us:</span>
+        We are honored to represent you our first computer science project, My Mini Sports Database. As our first project, we faced new challenges and tried our best to overcome each one of them. 
+        This was a fun and exciting experience and we are happy to reach this stage in which we can make a full-fledged webpage. Enjoy your experience.<br> Team 3MK.
+    
+</p>
+    
+ <div class="button">
+     <p>You can also visit the websites below <br> for more information:</p>
+     <button id="espn"><a href=""> ESPN</a></button>
+     <button id="yahooSports"><a href="">Yahoo!Sports</a></button>
+     <button id="foxSports"><a href="">Fox Sports</a></button>
+ </div>
+
+ 
+<hr/>
+</div>   
+  <footer> 	&copy; Author: 3MK </footer>
+</body>
+</html>
